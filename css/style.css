@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-image: url("../images/fondo3.jpg");
+     font-family: Arial, sans-serif;  
+     
+}
+a{
+text-decoration: none;
+}
+ 
+header{
+ width: 100%;
+ overflow:hidden;
+ padding-bottom: 50px;
+}
+.menu-bar {
+	display:none;
+}
+
+/*nav.menu-nav {*/
+  nav {
+   position:fixed;
+    width:100%;
+    margin: 20px auto;
+    max-width: 2000px;/*eso es para que no sobrepase de los 1000 px*/
+    z-index: 100;
+    
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    font-size:20px;
+    font-weight: bold;
+    float:right;
+    margin-right: 25%;
+
+}  
+
+li a {
+    display: block;
+    padding: 14px 16px;
+  text-decoration: none;
+    color: #808080;
+}
+li {
+    float: left;
+      
+}
+li a:hover {
+    background-color: #fff;
+}
+
+
+
+
+
+div.wrapper {
+   min-height: 1500px;
+   position: relative;
+   width: 1100px;
+    margin: 100px auto;
+    
+
+}
+div div {
+   margin: 5px;
+   min-height: 55px;
+   border: 5px solid silver;
+}
+ .doredbox{
+       border: 2px solid red;
+}
+.wrapper * {
+    position: relative;
+}
+.bild_caption {
+    transform: rotate(90deg);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4em;
+    bottom:100px;
+}
+.Top1 .bild_caption, .Top3 .bild_caption{
+    left: 130px;
+    bottom: 180px;
+}
+
+.Top2 .bild_caption1{
+  bottom:40px;
+  left: 20px;
+  color: red;
+  border: none;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.Top4 .bild_caption{
+ left: 230px;
+  bottom: 120px;
+}
+
+.Top5 .bild_caption{
+    bottom: 60px;
+    color: red;
+    right: 90px;
+
+}
+.Top6 .bild_caption{
+    left: 210px;
+    bottom: 70px;
+
+}
+.Top7 .bild_caption{
+    left: 130px;
+    bottom: 290px;
+}
+.doBox1,
+.doBox2,
+.bild{
+   width: 350px;
+   height: 350px; 
+}
+.doredbox,
+.bild3
+{
+   width: 200px;
+   height: 200px;
+}
+.doBox3,
+.bild1 
+{
+  width: 550px;
+   height:380px;
+}
+
+.doBox4,
+.bild4 
+{
+   width: 500px;
+   height:300px;
+}
+ .doBox5,
+.bild5 {
+   width: 350px;
+   height: 450px;
+}
+ 
+.doBox6{
+   width: 500px;
+   height: 250px;
+   left: 230px;
+   top: 1100px; 
+   z-index: 0; 
+   color: grey;
+}
+ .text{
+    font-size: 1.5em;
+    left: 20px;
+    
+}
+.abs {
+   background: #000;
+   position: absolute;
+}
+.bild:hover,
+ .bild1:hover,
+ .bild3:hover, 
+ .bild4:hover,
+ .bild5:hover {
+    opacity: 0.5;
+    transition: opacity .4s; 
+      }
+
+.Top8:hover{
+     z-index: 6;
+     color: #000;
+}
+
+
+.Top1 {
+   z-index: 1;
+   right: 50px;
+}
+.Top1:hover {
+    z-index: 2;
+ }
+
+@media screen and (min-width:780px) {
+.Top2 {
+   z-index: 1;
+   top:230px;
+   right:280px;
+ 
+}
+.Top3 {
+   z-index: 3;
+   top: 200px;
+   left: 150px;
+}
+.Top3:hover {
+    z-index: 4;
+  
+}
+.Top4 {
+   z-index: 2;
+   top:480px;
+   left:350px;
+}
+.Top4:hover {
+    z-index: 4;
+ }
+.Top5 {
+   z-index: 4;
+   top: 450px;
+  left: 50px;
+}
+
+.Top6 {
+   z-index: 3;
+   top:750px;
+   left:50px;
+}
+
+.Top7 {
+   z-index: 1;
+   top: 750px;
+   right: 50px;
+}
+.Top7:hover {
+    z-index: 4;
+ }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+div.tag1{
+	
+	list-style: none;
+ 
+    margin: 0;
+    padding:0;
+    width:100%;
+ 
+}
+
+
+.center{
+	margin: 0 auto;
+	text-align:center;
+}
+.wrapper{
+	display:inline-block;
+     padding: 40px;
+    margin: 20px;
+	width:25%;
+	
+}
+.bild{
+	width:80%;
+	height: 40%;
+  }
+
+a.block{
+	display:block;
+  text-decoration: none;
+}
+i{
+	
+	text-align:right;
+	color:#292727;
+}
+*/

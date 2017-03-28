@@ -1,0 +1,147 @@
+
+@media screen and (max-width:800px){
+  /*menu*/
+ 
+  nav {
+		width:80%;
+		height:100%;
+		margin:0;
+		position: fixed;
+    /*left:-100%;*/
+     /*  background-color:#fff;*/
+  	}
+   nav  ul{
+ float:none;
+    margin-right: 0%;
+   }
+ 
+ nav ul li {
+	/*	display:none;*/
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+  li a {
+ 
+    color: #808080;
+}
+
+
+ 
+	.menu-bar {
+		display:block;
+		width:100%;
+     background-color:#fff;
+     opacity: 0.5;
+	
+	}
+ 
+	.menu-bar .bt-menu {
+		display:block;
+		padding:20px;
+	 color: #808080;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+	
+	}
+ 	.menu-bar span {
+		float:right;
+		font-size:40px;
+	}
+  
+/*menu*/
+
+
+
+div div {
+   margin: 0px;
+   min-height: 0px;
+   
+}
+
+div.wrapper {
+   min-height: 100%;
+   width: 100%;
+}
+
+.abs {
+   background: #000;
+     position: relative;
+    
+}
+.bild_caption{
+    transform: rotate(90deg);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4em;
+    bottom:100px;
+}
+
+.Top1 .bild_caption,
+.Top3 .bild_caption,
+.Top4 .bild_caption,
+.Top6 .bild_caption,
+.Top7 .bild_caption {
+    
+     left: 0px;
+    bottom: 0px;
+}
+
+.doBox1,
+.doBox2,
+.bild{
+  width: 100%;
+  height: auto; 
+   
+}
+.doredbox,
+.bild3
+{
+   display: none;
+}
+.doBox3,
+.bild1 
+{
+ width: 100%;
+   height:auto;
+    
+}
+
+.doBox4,
+.bild4 
+{
+    width: 100%;
+   height:auto;
+
+}
+ .doBox5,
+.bild5 {
+  width: 100%;
+   height: auto;
+     
+}
+ 
+.doBox6{
+    display: block;
+    color: grey;
+    left: 0px;
+    top: 0px;
+    width: auto;
+}
+ .text{
+    font-size: 1.5em;
+    width: 100%;
+text-align: justify;
+    
+}
+
+.Top1, .Top3, .Top4, .Top6, .Top7 {
+   z-index: 1;
+    top: 0px;
+   right: 0px;
+   left: 0px;
+  margin-bottom:10px;
+   
+}
+}
