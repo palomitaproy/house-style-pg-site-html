@@ -1,14 +1,19 @@
 
 @media screen and (max-width:800px){
   /*menu*/
- 
+ header{
+   position: absolute;
+     z-index: 100;
+     padding-bottom: 0px;
+ }
   nav {
+    display: none;
 		width:80%;
 		height:100%;
 		margin:0;
-		position: fixed;
+
     /*left:-100%;*/
-     /*  background-color:#fff;*/
+       background-color:#fff;
   	}
    nav  ul{
  float:none;
@@ -29,11 +34,16 @@
  
 	.menu-bar {
 		display:block;
+    		position: fixed;
 		width:100%;
      background-color:#fff;
      opacity: 0.5;
 	
 	}
+
+  	.menu-bar:hover nav{
+display: block;
+    }
  
 	.menu-bar .bt-menu {
 		display:block;
@@ -62,6 +72,7 @@ div div {
 div.wrapper {
    min-height: 100%;
    width: 100%;
+   margin-top: 0;
 }
 
 .abs {

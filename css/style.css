@@ -15,8 +15,9 @@ header{
  width: 100%;
  overflow:hidden;
  padding-bottom: 50px;
+
 }
-.menu-bar {
+.menu-bar > a{
 	display:none;
 }
 
@@ -26,9 +27,10 @@ header{
     width:100%;
     margin: 20px auto;
     max-width: 2000px;/*eso es para que no sobrepase de los 1000 px*/
-    z-index: 100;
+   display: block;
     
 }
+
 
 
 nav ul {
